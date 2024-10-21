@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.labelContainer{
+    text-align: center;
+}
+
+.labels{
+    padding: 3em;
+    font-size: 2em;
+}
+
+#rollBtn{
+    font-size: 3em;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#rollBtn:hover {
+    background-color: rgb(40, 135, 173);
+}
+
+#resetBtn{
+    font-size: 1em;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+#resetBtn:hover {
+    background-color: rgb(40, 135, 173);
+}
