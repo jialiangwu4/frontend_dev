@@ -3,13 +3,26 @@ body{
     text-align: center;
 }
 
-.labelContainer{
-    text-align: center;
+#diceContainer{
+    max-width: auto;
+    max-height: 100px;
+    display: block;
+    justify-content: space-between;
+    align-content: space-between;
+
 }
 
-.labels{
-    padding: 3em;
+.dice{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
     font-size: 2em;
+}
+
+.diceImg{
+    width: 100px;
 }
 
 #rollBtn{

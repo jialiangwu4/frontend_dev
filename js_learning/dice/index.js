@@ -15,9 +15,13 @@ const randomGen = (MIN, MAX) => Math.floor(Math.random() * MAX) + MIN;
 
 // roll three dice at a time 
 rollBtn.onclick = () => {
-    dice1.textContent = randomGen(MIN, MAX);
-    dice2.textContent = randomGen(MIN, MAX);
-    dice3.textContent = randomGen(MIN, MAX);
+    let dice1Val = randomGen(MIN, MAX);
+    let dice2Val = randomGen(MIN, MAX);
+    let dice3Val = randomGen(MIN, MAX);
+
+    dice1.innerHTML = `<img src="./img/${dice1Val}.png" alt="${dice1Val}" class="diceImg">`;
+    dice2.innerHTML = `<img src="./img/${dice2Val}.png" alt="${dice2Val}" class="diceImg">`;
+    dice3.innerHTML = `<img src="./img/${dice3Val}.png" alt="${dice3Val}" class="diceImg">`;
 }
 
 resetBtn.onclick = () => {
